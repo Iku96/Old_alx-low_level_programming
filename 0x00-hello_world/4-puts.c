@@ -1,11 +1,10 @@
 #include<stdio.h>
 /**
- * main - Short description, single line
- * @parameterx: Description of parameter x
+ * main - Short description
 (* a blank line
  * Description: Longer description of the function)?
 (* section header: Section description)*
- * Return: Returns 0
+ * Return: Returns zero
  */
 int main(void)
 {
