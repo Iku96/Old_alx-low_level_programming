@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-        int char_type;
+	char char_type;
 	int integer_type;
-	int long_type;
-	int long_long_int_type;
-	int float_type;
+	long long_type;
+	long long int long_long_int_type;
+	float float_type;
 
 	/**
 	 * printf funtion to print the sizes of ints
