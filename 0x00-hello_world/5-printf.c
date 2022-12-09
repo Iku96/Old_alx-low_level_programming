@@ -1,14 +1,15 @@
 #include<stdio.h>
-
 /**
- * function_name - Main void funtion
+ * main - Short description, single line
+ * @parameterx: Description of parameter x
+(* a blank line
  * Description: Longer description of the function)?
 (* section header: Section description)*
- * Return: Description of the returned value
+ * Return: Returns zero
  */
 int main(void) 
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	getchar();
 	return (0);
 }
