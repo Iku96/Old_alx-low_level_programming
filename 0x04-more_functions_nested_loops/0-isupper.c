@@ -5,9 +5,9 @@
  * Return always 1 or 0
  */
 
-int isupper(char c)
+int _isupper(char c)
 {
-	if (c == 'A' && c == 'Z')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
