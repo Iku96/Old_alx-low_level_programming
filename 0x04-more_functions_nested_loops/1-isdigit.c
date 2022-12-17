@@ -1,4 +1,4 @@
-#include <ctype.h>
+#include <main.h>
 /**
  * function that checks whether number is a digit
  * @c char to check
