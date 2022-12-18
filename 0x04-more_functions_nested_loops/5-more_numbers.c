@@ -7,10 +7,12 @@
 
 void more_numbers(void)
 {
-	char c;
+	char c, d;
 
-	for (c = '0'; c <= '14'; c++)
+	for (c = '0'; c < '10'; c++)
 	{
-		_putchar(c * '10');
+		for (d = '0'; d <= '14'; d++)
+		{
+			_putchar(d);
 	}
 	_putchar('\n');
