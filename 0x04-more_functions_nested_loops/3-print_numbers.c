@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * function that checks whether number is a digit
+ * print_numbers - prints 0123456789
  * @c char to check
- * Always return 1 or 0
+ * Return void
  */
 void print_numbers(void)
 {
@@ -10,8 +10,7 @@ void print_numbers(void)
 	
 	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(c);
+	_putchar(c);
 	}
 	_putchar('\n');
-
 }
