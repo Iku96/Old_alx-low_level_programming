@@ -1,4 +1,4 @@
-#include "main.h"
+#include <ctype.h>
 /**
  * function called print_numbers
  * prints numbers from 0 to 9
