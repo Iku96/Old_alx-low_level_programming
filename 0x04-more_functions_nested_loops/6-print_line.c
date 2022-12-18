@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * function print_line - prints a straight line on the terminal
- * 
- * Return: no return
+ * print_line - printing lines
+ * @n: number of times
+ *
+ * Return: void
  */
+
+
 void print_line(int n)
 {
 	int i;
