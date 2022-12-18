@@ -1,8 +1,8 @@
-#include <ctype.h>
+#include "main.h"
 /**
- * function called print_numbers
- * prints numbers from 0 to 9
- * Return void
+ * function that checks whether number is a digit
+ * @c char to check
+ * Always return 1 or 0
  */
 void print_numbers(void)
 {
