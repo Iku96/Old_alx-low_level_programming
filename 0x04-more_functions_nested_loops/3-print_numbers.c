@@ -1,13 +1,15 @@
 #include "main.h"
+
 /**
- * print_numbers - prints 0123456789
- * @c char to check
- * Return void
- */
+*print_numbers - print 0123456789
+* one more line of description
+*Return: void
+*/
+
 void print_numbers(void)
 {
 	char c;
-	
+
 	for (c = '0'; c <= '9'; c++)
 	{
 	_putchar(c);
