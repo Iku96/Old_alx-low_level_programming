@@ -5,14 +5,9 @@
  *
  * Returns: Always 0
  */
+
 int main(int argc, char *argv[])
 {
-	char *name = argv[0];
-	while (*name)
-	{
-	_putchar(*name);
-	name++;
-	}
-	_putchar('\n');
-	return 0;
+	printf("%s\n", argv[0]);
+	return (0);
 }
