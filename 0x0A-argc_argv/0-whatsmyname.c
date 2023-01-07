@@ -6,7 +6,12 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s", argv[0]);
-	printf("\n");
-	return (0);
+	char *name = argv[0];
+	while (*name)
+	{
+	putchar(*name);
+	name++;
+	}
+	putchar('\n');
+	return 0;
 }
