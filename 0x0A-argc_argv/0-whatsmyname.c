@@ -10,9 +10,9 @@ int main(int argc, char *argv[])
 	char *name = argv[0];
 	while (*name)
 	{
-	putchar(*name);
+	_putchar(*name);
 	name++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return 0;
 }
