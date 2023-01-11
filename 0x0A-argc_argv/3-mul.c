@@ -9,13 +9,19 @@
  */
 int main(int argc, char *argv[])
 {
+	int a;
+	int b;
+	int result;
+	
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return 1;
 	}
-	int a = atoi(argv[1]), b = atoi(argv[2]);
-	int result = a * b;
+	
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
 	printf("%d\n", result);
 	return (0);
 }
