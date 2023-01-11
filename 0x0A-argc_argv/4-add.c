@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, result = 0, len;
+	int i, result = 0, len, j;
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		len = strlen(argv[i]);
-		for (int j = 0; j < len; j++)
+		for (j = 0; j < len; j++)
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
