@@ -1,11 +1,6 @@
-#ifndef OBJECT_LIKE_macro_H
-#define OBJECT_LIKE_MACRO_H
-
-/**
- * Desc: Header file that defines a macro named SIZE as an abbreviation for the token 1024
- *
- */
+#ifndef OBJECT_LIKE_MACRO
+#define OBJECT_LIKE_MACRO
 
 #define SIZE 1024
 
-#endif
+#endif /* OBJECT_LIKE_MACRO */
